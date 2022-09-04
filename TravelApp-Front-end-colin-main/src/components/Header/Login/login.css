@@ -3,11 +3,11 @@
   justify-content: center;
   align-items: center;
   height: 200px;
-  width: 300px;
+  width: auto;
   background-color: lightblue;
   float: right;
 }
-.form
-{
-  border: 1em;
+
+.hidden {
+  display: none;
 }

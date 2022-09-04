@@ -41,19 +41,34 @@ export default function Slider() {
       img: "../Assets/Images/photo-1533105079780-92b9be482077.avif",
       key: 17,
     },
+    {
+      id: 8,
+      img: "../Assets/pexels-julius-silver-753626.jpg",
+      key: 18,
+    },
+    {
+      id: 9,
+      img: "../Assets/pexels-nubia-navarro-(nubikini)-386009.jpg",
+      key: 19,
+    },
+    {
+      id: 10,
+      img: "../Assets/pexels-te-lensfix-1371360.jpg",
+      key: 20,
+    },
   ];
 
   const handleClick = (way) => {
     way === "left"
       ? setCurrent(current > 0 ? current - 1 : 2)
-      : setCurrent(current < SliderData.length - 1 ? current + 1 : 0);
+      : setCurrent(current < SliderData.length - 5 ? current + 1 : 2);
   };
 
   return (
     <div className="slider--container">
       <div
         className="slider--body"
-        style={{ transform: `translateX(-${current * 30}vw)` }}
+        style={{ transform: `translateX(-${current * 20}vw)` }}
       >
         {SliderData.map((d) => (
           <div className="img--container" key={d.key}>

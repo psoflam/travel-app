@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import NavBar from "./components/NavBar/NavBar";
 import Header from "./components/Header/Header";
 import Body from "./components/Body/Body";
 import Footer from "./components/Footer/Footer";
@@ -13,7 +12,6 @@ root.render(
   <div className="app">
     <div className="sections">
       <React.StrictMode>
-        <NavBar />
         <Header />
         <Slider />
         <Body />
