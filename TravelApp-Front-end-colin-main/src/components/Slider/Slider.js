@@ -3,36 +3,43 @@ import "./slider.css";
 
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 
-export default function SliderCard() {
+export default function Slider() {
   const [current, setCurrent] = useState(0);
   const SliderData = [
     {
       id: 1,
       img: "../Assets/Images/photo-1518684079-3c830dcef090.avif",
+      key: 11,
     },
     {
       id: 2,
       img: "../Assets/Images/photo-1476514525535-07fb3b4ae5f1.avif",
+      key: 12,
     },
     {
       id: 3,
       img: "../Assets/Images/photo-1500530855697-b586d89ba3ee.avif",
+      key: 13,
     },
     {
       id: 4,
       img: "../Assets/Images/photo-1502791451862-7bd8c1df43a7.avif",
+      key: 14,
     },
     {
       id: 5,
       img: "../Assets/Images/photo-1523906834658-6e24ef2386f9.avif",
+      key: 15,
     },
     {
       id: 6,
       img: "../Assets/Images/photo-1527631746610-bca00a040d60.avif",
+      key: 16,
     },
     {
       id: 7,
       img: "../Assets/Images/photo-1533105079780-92b9be482077.avif",
+      key: 17,
     },
   ];
 
@@ -49,7 +56,7 @@ export default function SliderCard() {
         style={{ transform: `translateX(-${current * 30}vw)` }}
       >
         {SliderData.map((d) => (
-          <div className="img--container">
+          <div className="img--container" key={d.key}>
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
