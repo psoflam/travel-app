@@ -1,0 +1,61 @@
+#body {
+
+
+background-image:linear-gradient(lightgrey,darkgrey);
+  height: auto;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.image1
+{
+  width: 350px;
+text-align: left;
+border-radius: 25px;
+
+}
+
+
+
+.image2
+{
+  width: 350px;
+position: static;
+border-radius: 25px;
+
+}
+
+
+.image3
+{
+  width:350px;
+left: 0px;
+border-radius: 25px;
+
+}
+.body {
+  text-align: center;
+  margin: 0;
+
+}
+
+.p1
+{
+  padding-top: 2em;
+padding-left: 2em;
+}
+.p2
+{
+  text-align: right;
+  padding-right: 2em;
+}
+.p3
+{
+  padding-left: 2em;
+  padding-bottom: 2em;
+}
+.textOne
+{
+  text-align: center;
+
+}
