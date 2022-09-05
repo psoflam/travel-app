@@ -7,5 +7,6 @@ export default function Footer() {
     <div id="footer">
       <BookCard />
     </div>
+    
   );
 }

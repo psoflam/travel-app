@@ -6,7 +6,7 @@ import Header from "./components/Header/Header";
 import Body from "./components/Body/Body";
 import Footer from "./components/Footer/Footer";
 import Slider from "./components/Slider/Slider";
-
+import Publish from "./components/Publish/publish";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div className="app">
@@ -17,6 +17,7 @@ root.render(
         <Body />
         <Footer />
       </React.StrictMode>
+    <Publish/>
     </div>
   </div>
 );

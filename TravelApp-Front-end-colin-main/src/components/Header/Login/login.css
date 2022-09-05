@@ -1,3 +1,4 @@
+
 .login {
   display: flex !important;
   justify-content: center !important;
@@ -6,6 +7,7 @@
   width: 400px !important;
   background-color: lightblue !important;
   float: right !important;
+
 }
 
 .register {

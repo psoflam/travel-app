@@ -1,6 +1,6 @@
 #bookcard {
   display: flex;
-  background-color: lightgreen;
+ background-image: url(C:\Users\psops\Documents\GitHub\travel-app\TravelApp-Front-end-colin-main\public\Assets\Images\airplane-bookcard.avif);
   height: 500px;
   width: 55%;
   border-radius: 10%;
@@ -12,7 +12,7 @@
 
 .form--bookcard {
   margin: 100px;
-  padding-left: 100px;
+
 }
 
 .bookcard--img {
