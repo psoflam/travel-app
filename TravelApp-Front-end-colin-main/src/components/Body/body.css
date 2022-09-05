@@ -19,7 +19,7 @@ text-align: left;
 border-radius: 25px;
 float:left ;
 margin:10px ;
-
+height:280px;
 }
 
 
@@ -31,7 +31,7 @@ position: static;
 border-radius: 25px;
 float: right;
 margin-top: 10px;
-
+height:280px;
 margin-bottom: 10px;
 }
 
@@ -42,7 +42,7 @@ margin-bottom: 10px;
 left: 0px;
 border-radius: 25px;
 float: left;
-
+height:280px;
 margin-top: 10px;
 }
 .body {
@@ -71,7 +71,7 @@ margin-top: 10px;
   padding: 50px;
   margin: 50px;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 50px;
 height: 200px;
 }
 .div3
@@ -79,7 +79,7 @@ height: 200px;
   padding: 50px;
   margin: 50px;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 50px;
   height: 200px;
 }
 .p
