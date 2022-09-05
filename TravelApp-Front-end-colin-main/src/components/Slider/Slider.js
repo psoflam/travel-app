@@ -43,17 +43,17 @@ export default function Slider() {
     },
     {
       id: 8,
-      img: "../Assets/pexels-julius-silver-753626.jpg",
+      img: "../Assets/Images/pexels-julius-silver-753626.jpg",
       key: 18,
     },
     {
       id: 9,
-      img: "../Assets/pexels-nubia-navarro-(nubikini)-386009.jpg",
+      img: "../Assets/Images/pexels-nubia-navarro-(nubikini)-386009.jpg",
       key: 19,
     },
     {
       id: 10,
-      img: "../Assets/pexels-te-lensfix-1371360.jpg",
+      img: "../Assets/Images/pexels-te-lensfix-1371360.jpg",
       key: 20,
     },
   ];
