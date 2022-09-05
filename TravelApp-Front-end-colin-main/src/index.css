@@ -14,12 +14,11 @@ code {
 .sections {
   width: 100%;
   position: relative;
-  top: 70px;
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
   scrollbar-width: none;
+  overflow: hidden;
 }
-
-.app {
-  height: 100vh;
+::-webkit-scrollbar {
+  display: none;
 }

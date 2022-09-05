@@ -4,15 +4,6 @@ import Button from "@mui/material/Button";
 import { TextField } from "@mui/material";
 
 export default function Login() {
-  // const [loggedIn, setLoggedIn] = setState(false);
-
-  // handleLoginClick() {
-  //   setLoggedIn(true);
-  // }
-
-  // handleLogoutClick() {
-  //   setLoggedIn(false);
-  // }
   return (
     <React.Fragment>
       <div id="login">
@@ -21,13 +12,11 @@ export default function Login() {
           <br></br>
           <TextField id="standard-basic" label="Password" variant="standard" />
           <br></br>
-          <Button variant="contained">Login!</Button>
-          <Button variant="contained">Sign up</Button>
+          <Button variant="contained">Submit</Button>
         </form>
       </div>
     </React.Fragment>
   );
 }
 
-// First name:{" "}
-// Last name:{" "}
+// First name:{
