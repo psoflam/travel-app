@@ -1,10 +1,16 @@
 import React from "react";
-import LoginControl from "../LoginController/LoginControl";
+import { Button } from "@mui/material";
 
-export default function LoggedIn() {
+export default function LoggedIn(props) {
   return (
     <React.Fragment>
-      <div id="logged--in"></div>
+      <div className="logged--in">
+        <form className="form" id="frm1">
+          <Button variant="contained" onClick={props.onClick}>
+            Logout
+          </Button>
+        </form>
+      </div>
     </React.Fragment>
   );
 }
