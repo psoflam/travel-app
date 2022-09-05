@@ -1,9 +1,10 @@
 #bookcard {
   display: flex;
- background-image: url(C:\Users\psops\Documents\GitHub\travel-app\TravelApp-Front-end-colin-main\public\Assets\Images\airplane-bookcard.avif);
+background-image: url("/public/Assets/Images/airplane-bookcard.avif");
   height: 500px;
-  width: 55%;
+  width: 800px;
   border-radius: 10%;
+  text-align: center;
 }
 
 .hidden {

@@ -22,11 +22,12 @@
 }
 .slider--container {
   height: 375px;
-  width:96em;
+  width:108em;
   display: flex;
   position: relative;
-  padding: 100px;
+  padding: 80px;
   background-image:linear-gradient(#A5F1E9,#7FBCD2);
+  margin: 1px;
 }
 
 .slider--body {
