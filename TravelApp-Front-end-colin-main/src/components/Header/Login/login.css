@@ -1,13 +1,29 @@
-#login {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  width: auto;
-  background-color: lightblue;
-  float: right;
+.login {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 200px !important;
+  width: 400px !important;
+  background-color: lightblue !important;
+  float: right !important;
 }
 
-.hidden {
-  display: none;
+.register {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 200px !important;
+  width: 400px !important;
+  background-color: lightblue !important;
+  float: right !important;
+}
+
+.logged--in {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 200px !important;
+  width: 400px !important;
+  background-color: lightblue !important;
+  float: right !important;
 }

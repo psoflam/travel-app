@@ -6,7 +6,11 @@
   border-radius: 10%;
 }
 
-.form {
+.hidden {
+  display: none;
+}
+
+.form--bookcard {
   margin: 100px;
   padding-left: 100px;
 }

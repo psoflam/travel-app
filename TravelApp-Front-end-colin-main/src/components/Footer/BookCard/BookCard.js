@@ -36,7 +36,7 @@ export default function BookCard() {
 
   return (
     <div id="bookcard">
-      <div className="form" id="frm1">
+      <div className="form--bookcard" id="frm1">
         <h3>Book your next trip with us!</h3>
         <Stack component="form" noValidate spacing={3}>
           <div>
