@@ -21,12 +21,12 @@
   user-select: none;
 }
 .slider--container {
-  height: 500px;
-  width: auto;
+  height: 375px;
+  width:108em;
   display: flex;
   position: relative;
   padding: 100px;
-  background-color: crimson;
+  background-image:linear-gradient(#A5F1E9,#7FBCD2);
 }
 
 .slider--body {

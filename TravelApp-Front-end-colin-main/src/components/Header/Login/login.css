@@ -2,10 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
-  width: auto;
+  height:9em;
+  width: 400px;
   background-color: lightblue;
   float: right;
+  opacity: 0.6;
+font-weight: bold;
+border-radius: 13px;
 }
 
 .hidden {

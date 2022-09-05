@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <>
       <Login />
-      <div id="header">
+      <div >
         <h1 id="welcome--tag">Welcome To Your Next Getaway</h1>
       </div>
     </>
