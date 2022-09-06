@@ -6,6 +6,7 @@ export default function LoggedIn(props) {
     <React.Fragment>
       <div className="logged--in">
         <form className="form" id="frm1">
+          <h2>Hello {props.userName}!</h2>
           <Button variant="contained" onClick={props.onClick}>
             Logout
           </Button>

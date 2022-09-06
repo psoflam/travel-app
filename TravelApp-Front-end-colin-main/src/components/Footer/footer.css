@@ -2,10 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  height: 400px;
   width: auto;
-  background-image:linear-gradient(#FFEEAF,#F1A661);
+  background-image: linear-gradient(#ffeeaf, #f1a661);
   margin-left: 60px;
   margin-right: 60px;
-margin-bottom: -60px;
+  margin-bottom: -60px;
 }
