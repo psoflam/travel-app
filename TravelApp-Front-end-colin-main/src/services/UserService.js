@@ -1,17 +1,16 @@
-export async function getUser() {
+const axios = require("axios");
+
+export async function getAllUsers() {
   try {
-    const response = await fetch("/api/users");
-    return await response.json();
+    const response = await axios.get("/api/get");
+    console.log("response  ", response);
+    return response.data;
   } catch (error) {
     return [];
   }
 }
 
 export async function createUser(data) {
-  const response = await fetch(`/api/user`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ user: data }),
-  });
-  return await response.json();
+  const response = await axios.post(`/api/add`, { user: data });
+  return response.data;
 }
